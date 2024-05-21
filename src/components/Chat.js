@@ -2,14 +2,11 @@ import React, { useEffect, useState } from 'react';
 import './Chat.css';
 
 const Chat = () => {
-  const [isAtBottom, setIsAtBottom] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
 
   const handleScroll = () => {
     const scrolled = window.scrollY;
-    const isBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight;
-    setIsAtBottom(isBottom);
-    setIsVisible(scrolled >= 200 && !isBottom);
+    setIsVisible(scrolled >= 200 && scrolled < 1200);
   };
 
   useEffect(() => {
@@ -20,7 +17,7 @@ const Chat = () => {
   }, []);
 
   return (
-    <div className={`chat-popup ${isVisible ? 'visible' : ''} ${isAtBottom ? 'hidden' : ''}`}>
+    <div className={`chat-popup ${isVisible ? 'visible' : 'hidden'}`}>
       <div className="chat-header">
         <h4>Radhika</h4>
         <span>Hey, this is Radhika from ZebLearn - The Rank #1 SAP & HR Live Training Provider in India.</span>

@@ -3,7 +3,7 @@
   bottom: 0;
   right: -320px; /* Hide off-screen initially */
   width: 300px;
-  background: linear-gradient(135deg, #1e0352 0%, #20055f 100%);
+  background: #7b41b6;
   color: white;
   border: 1px solid #ccc;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -22,7 +22,7 @@
 }
 
 .chat-header {
-  background: linear-gradient(135deg, #210660 0%, #190247 100%);
+  background: #260944;
   color: white;
   padding: 15px;
   border-radius: 10px 10px 0 0;

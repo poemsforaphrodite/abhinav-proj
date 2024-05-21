@@ -6,7 +6,9 @@ import Courses from './components/Courses';
 import Placement from './components/Placement';
 import Chat from './components/Chat';
 import LearningInfo from './components/LearningInfo';
+import ClientFeedback from './components/ClientFeedback';
 import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -15,8 +17,9 @@ function App() {
       <Hero />
       <Courses />
       <Placement />
-      <Chat />
-      <LearningInfo />
+      <Chat /> 
+     <LearningInfo />
+     <ClientFeedback />
       <Footer />
     </div>
   );

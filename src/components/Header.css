@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
-  background-color: rgba(43, 3, 82, 0.8); /* Semi-transparent violet */
+  background-color: rgba(117, 68, 166, 0.8); /* Semi-transparent violet */
   color: white;
   position: fixed;
   width: 100%;
@@ -32,6 +32,13 @@
   transition: background-color 0.3s;
 }
 
+.nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 1s; /* Adding transition for color with 1 second duration */
+}
+
 .nav a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  color: orange;
 }
