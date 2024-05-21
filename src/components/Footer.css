@@ -1,6 +1,120 @@
 .footer {
-    background-color: #663399;
-    color: white;
-    padding: 10px;
-  }
-  
+  background-color: #21053d;
+  color: white;
+  padding: 40px 20px;
+}
+
+.newsletter {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  background-image: url('../worldimg.avif'); /* Adjust the path */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.newsletter h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.newsletter p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  background-color: #ff5733;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+  background-color: #ff2e00;
+}
+
+.newsletter-form i {
+  margin-left: 5px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center; /* Ensures vertical alignment */
+}
+
+.footer-section p i, .footer-section a i {
+  margin-right: 8px;
+}
+
+.footer-section a:hover {
+  color: #ff5733;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #16042c;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-bottom a {
+  color: #ff5733;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #ff2e00;
+}
