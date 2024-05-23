@@ -21,7 +21,7 @@ const Hero = () => {
             <input type="tel" placeholder="Phone No" />
             <button type="submit">BOOK NOW</button>
           </form>
-          <p>By continuing you agree to Zeblearnindia.com's <a href="/terms">Terms & Conditions</a> and <a href="/privacy">Privacy Policy</a></p>
+          <p>By continuing you agree to FutureEdutech.com's <a href="/terms">Terms & Conditions</a> and <a href="/privacy">Privacy Policy</a></p>
         </aside>
       </div>
     </section>

@@ -118,3 +118,25 @@
 .footer-bottom a:hover {
   color: #ff2e00;
 }
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .newsletter-form button {
+    border-radius: 5px;
+  }
+}

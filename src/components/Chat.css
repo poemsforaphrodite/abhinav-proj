@@ -58,3 +58,10 @@
 .chat-popup input::placeholder {
   color: #999;
 }
+
+/* Hide chat component on mobile devices */
+@media (max-width: 768px) {
+  .chat-popup {
+    display: none;
+  }
+}

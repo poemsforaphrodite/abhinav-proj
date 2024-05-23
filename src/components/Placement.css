@@ -31,6 +31,7 @@
   text-align: left;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
 }
 
 .partner h3 {
@@ -45,6 +46,24 @@
 .partner:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.border-top, .border-bottom {
+  height: 5px;
+  background-color: #ff5733;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.border-top {
+  border-radius: 10px 10px 0 0;
+  top: 0;
+}
+
+.border-bottom {
+  border-radius: 0 0 10px 10px;
+  bottom: 0;
 }
 
 .contact-info {
@@ -69,4 +88,25 @@
 .contact-button:hover {
   background-color: #7a1b06;
   transform: scale(1.1);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .placement-partners {
+    padding: 20px;
+  }
+
+  .partner {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-info h3 {
+    font-size: 20px;
+  }
+
+  .contact-button {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
 }

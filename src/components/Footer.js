@@ -17,7 +17,7 @@ const Footer = () => {
       </div>
       <div className="footer-container">
         <div className="footer-section">
-          <img src={logo} alt="ZebLearn Logo" className="footer-logo" />
+          <img src={logo} alt="Future Edutech Logo" className="footer-logo" />
           <p>Our courses cover a range of SAP modules, including HCM, accounting, FICO, SuccessFactors, S4 HANA, project system, maintenance, SD, MM, PP, and more.</p>
         </div>
         <div className="footer-section">
@@ -34,13 +34,13 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h3>Get in Touch</h3>
-          <p><i className="fas fa-phone"></i> +91-72778 77778</p>
-          <p><i className="fas fa-envelope"></i> enquiry@zeblearn.com</p>
-          <p>C-18, Sector-2 Noida UP-201301</p>
+          <p><i className="fas fa-phone"></i> +918882593576</p>
+          <p><i className="fas fa-envelope"></i> futureEdutech01@gmail.com</p>
+          <p>ADDRESS</p>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>Copyright © 2024 All Rights Reserved By <a href="https://zeblearnindia.com">zeblearnindia.com</a></p>
+        <p>Copyright © 2024 All Rights Reserved By <a href="https://futureedutech.co.in">FutureEdutech.com</a></p>
       </div>
     </footer>
   );
