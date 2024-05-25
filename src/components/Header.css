@@ -62,7 +62,7 @@
   .logo {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /* Left align the logo */
   }
 
   .nav {
@@ -84,5 +84,8 @@
 
   .toggle-icon {
     display: block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
   }
 }

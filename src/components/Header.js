@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Header.css';
+import './Header.css'; // Ensure this path is correct relative to your project structure
 import logo from '../logoedu.png';  // Adjust the path based on your directory structure
 
 const Header = () => {
