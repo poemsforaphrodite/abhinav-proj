@@ -1,16 +1,30 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Chat.css';
 
 const Chat = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleScroll = () => {
+    const scrolled = window.scrollY;
+    setIsVisible(scrolled >= 200 && scrolled < 1200);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="chat-popup">
+    <div className={`chat-popup ${isVisible ? 'visible' : 'hidden'}`}>
       <div className="chat-header">
         <h4>Radhika</h4>
-        <span>Hey this is Radhika from ZebLearn- The Rank #1 SAP & HR Live Training Provider in India.</span>
+        <span>Hey, this is Radhika from Future Edutech - The Rank #1 SAP & HR Live Training Provider in India.</span>
       </div>
       <div className="chat-body">
-        <p>I am Sr. Consultant, We provide Industry class Live Training on Live projects by industry Experts in WeekDays, Weekend & Personalised Batches.</p>
-        <p>May I know Which Course You are looking?</p>
+        <p>I am a Sr. Consultant. We provide industry-class live training on live projects by industry experts in weekdays, weekends, and personalized batches.</p>
+        <p>May I know which course you are looking for?</p>
       </div>
       <input type="text" placeholder="Type here and press enter..." />
     </div>

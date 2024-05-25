@@ -1,6 +1,112 @@
-.placement-section {
-    background-color: #663399;
-    color: white;
+.placement-partners {
+  background-color: #663399;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.placement-partners h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.placement-partners p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.partner {
+  background: linear-gradient(135deg, white 0%, rgb(234, 233, 233) 100%);
+  color: #050000;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+.partner h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.partner p {
+  font-size: 14px;
+}
+
+.partner:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.border-top, .border-bottom {
+  height: 5px;
+  background-color: #ff5733;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.border-top {
+  border-radius: 10px 10px 0 0;
+  top: 0;
+}
+
+.border-bottom {
+  border-radius: 0 0 10px 10px;
+  bottom: 0;
+}
+
+.contact-info {
+  margin-top: 40px;
+}
+
+.contact-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-button {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  background-color: #a92709;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #7a1b06;
+  transform: scale(1.1);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .placement-partners {
     padding: 20px;
   }
-  
+
+  .partner {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-info h3 {
+    font-size: 20px;
+  }
+
+  .contact-button {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+}
