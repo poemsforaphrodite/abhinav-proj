@@ -35,12 +35,12 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Get in Touch</h3>
           <p><i className="fas fa-phone"></i> +918882593576</p>
-          <p><i className="fas fa-envelope"></i> futureEdutech01@gmail.com</p>
-          <p>ADDRESS</p>
+          <p><i className="fas fa-envelope"></i> Info@futureedutech.co.in</p>
+          <p>G8, Noida , Sector - 2, UP - 201301</p>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>Copyright © 2024 All Rights Reserved By <a href="https://futureedutech.co.in">FutureEdutech.com</a></p>
+        <p>Copyright © 2016 All Rights Reserved By <a href="https://futureedutech.co.in">Info@futureedutech.co.in</a></p>
       </div>
     </footer>
   );
