@@ -19,11 +19,11 @@ const Chat = () => {
   return (
     <div className={`chat-popup ${isVisible ? 'visible' : 'hidden'}`}>
       <div className="chat-header">
-        <h4>Radhika</h4>
-        <span>Hey, this is Radhika from Future Edutech - The Rank #1 SAP & HR Live Training Provider in India.</span>
+        <h4>Rakhi</h4>
+        <span>Hey, this is Rakhi from Future Edutech - The Rank #1 SAP & HR Live Training Provider in India.</span>
       </div>
       <div className="chat-body">
-        <p>I am a Sr. Consultant. We provide industry-class live training on live projects by industry experts in weekdays, weekends, and personalized batches.</p>
+        <p>I am a Sr.Consultant. We provide industry-class live training on live projects by industry experts in weekdays, weekends, and personalized batches.</p>
         <p>May I know which course you are looking for?</p>
       </div>
       <input type="text" placeholder="Type here and press enter..." />
